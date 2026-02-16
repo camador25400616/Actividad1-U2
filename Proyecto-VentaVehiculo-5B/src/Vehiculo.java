@@ -1,10 +1,10 @@
-public class Vehículo {
+public class Vehiculo {
     //Definir las variables de instancia
     public String marca;
     public double precio;
     public String motor;
     //Definir el constructor
-    public Vehículo(String marca, double precio, String motor){
+    public Vehiculo(String marca, double precio, String motor){
         this.marca = marca;
         this.precio = precio;
         this.motor = motor;

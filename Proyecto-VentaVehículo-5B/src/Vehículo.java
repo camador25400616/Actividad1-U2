@@ -33,9 +33,9 @@ public class Vehículo {
     @Override
     public String toString(){
         String cadena;
-        cadena = "Razón Social: " + this.marca + "\n" +
-                "RFC: " + this.precio + "\n" +
-                "Email: " + this.motor + "\n";
+        cadena = "Marca: " + this.marca + "\n" +
+                "Precio: " + this.precio + "\n" +
+                "Motor: " + this.motor + "\n";
         return cadena;
     }
 }

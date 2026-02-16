@@ -21,13 +21,13 @@ public class Vehículo {
         return this.motor;
     }
     //Setter
-    public void setRs(String marca){
+    public void setMarca(String marca){
         this.marca = marca;
     }
-    public void setRfc(double precio){
+    public void setPrecio(double precio){
         this.precio = precio;
     }
-    public void setEmail(String motor){
+    public void setMotor(String motor){
         this.motor = motor;
     }
     @Override
